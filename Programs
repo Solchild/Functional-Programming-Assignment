@@ -1,5 +1,8 @@
 #lang Scheme
-(display "Hello World")
-(define-namespace-anchor anc)
-(define ns (namespace-anchor->namespace anc))
-(define (reverse-general L)(display "reversing general"))
+;Reverse-General list
+(define (reverse-general L)
+  (cond
+   ((null? 'L) L)
+   ((list? 'L) reverse-general cdr 'L)
+  )
+)
