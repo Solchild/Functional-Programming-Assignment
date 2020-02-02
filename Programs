@@ -9,3 +9,6 @@
     (append (reverse-general (cdr L)) ( list (car L))))
   )
 )
+
+;Simple sum up numbers
+(define (sum-up-numbers-simple L)(display "Hello World")
