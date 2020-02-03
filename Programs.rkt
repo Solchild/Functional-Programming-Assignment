@@ -11,4 +11,10 @@
 )
 
 ;Simple sum up numbers
-(define (sum-up-numbers-simple L)(display "Hello World")
+(define (sum-up-numbers-simple L)
+  (cond
+    ((null? L) 0)
+    (if )
+    (else (+ (car L) (sum-up-numbers-simple (cdr L))))
+  )
+)
