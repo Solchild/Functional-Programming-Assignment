@@ -19,3 +19,9 @@
     (else (+ 0 (sum-up-numbers-simple (cdr L))))
   )
 )
+
+; 3. General numbers sum
+(define (sum-up-numbers-simple L)
+  (cond
+  )
+)
