@@ -1,5 +1,5 @@
 #lang Scheme
-;Reverse-General list
+; 1. Reverse-General list
 (define (reverse-general L)
   (cond
    ((null? L) L)
@@ -10,11 +10,12 @@
   )
 )
 
-;Simple sum up numbers
+; 2. Simple sum up numbers
 (define (sum-up-numbers-simple L)
   (cond
     ((null? L) 0)
-    (if )
-    (else (+ (car L) (sum-up-numbers-simple (cdr L))))
+    ((number? (car L))
+      (+ (car L) (sum-up-numbers-simple (cdr L))))
+    (else (+ 0 (sum-up-numbers-simple (cdr L))))
   )
 )
