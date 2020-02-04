@@ -21,7 +21,11 @@
 )
 
 ; 3. General numbers sum
-(define (sum-up-numbers-simple L)
+(define (sum-up-numbers-general L)
   (cond
+    ((null? L) 0)
+    ((number? (car L))
+      (+ (car L) (sum-up-numbers-general (cdr L))))
+    (else (+ 0 (sum-up-numbers-general (cdr L))))
   )
 )
