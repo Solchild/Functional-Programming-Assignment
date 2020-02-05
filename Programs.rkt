@@ -29,3 +29,6 @@
     (else (+ (sum-up-numbers-general (car L)) (sum-up-numbers-general (cdr L))))
   )
 )
+
+; 4. list compare
+(define (min-above-min L1 L2))
