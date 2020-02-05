@@ -1,4 +1,5 @@
 #lang Scheme
+
 ; 1. Reverse-General list
 (define (reverse-general L)
   (cond
@@ -20,7 +21,7 @@
   )
 )
 
-; 3. General numbers sum
+; 3. Simple sum up numbers
 (define (sum-up-numbers-general L)
   (cond
     ((null? L) 0)
@@ -31,4 +32,4 @@
 )
 
 ; 4. list compare
-(define (min-above-min L1 L2))
+;(define (min-above-min L1 L2))
